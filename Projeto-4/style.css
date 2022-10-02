@@ -1,0 +1,23 @@
+/* Home */
+#home{
+    background: #0D6EFD;
+    min-height: 500px;
+}
+
+/* Card */
+.card{
+    transition: all 0.5s ease;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    transform: scale(1.07);
+}
+
+/* Butão */
+.btn{
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    transform: scale(1.07);
+}
